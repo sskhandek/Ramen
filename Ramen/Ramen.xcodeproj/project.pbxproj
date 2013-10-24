@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAAD6A8917FF5BFE005A55E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */; };
+		BAAD6A8B17FF5BFE005A55E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */; };
+		BAAD6A8D17FF5BFE005A55E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8C17FF5BFE005A55E8 /* CoreGraphics.framework */; };
+		BAAD6A9317FF5BFE005A55E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6A9117FF5BFE005A55E8 /* InfoPlist.strings */; };
+		BAAD6A9517FF5BFE005A55E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD6A9417FF5BFE005A55E8 /* main.m */; };
+		BAAD6A9917FF5BFE005A55E8 /* SSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD6A9817FF5BFE005A55E8 /* SSKAppDelegate.m */; };
+		BAAD6A9B17FF5BFE005A55E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6A9A17FF5BFE005A55E8 /* Default.png */; };
+		BAAD6A9D17FF5BFE005A55E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6A9C17FF5BFE005A55E8 /* Default@2x.png */; };
+		BAAD6A9F17FF5BFE005A55E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6A9E17FF5BFE005A55E8 /* Default-568h@2x.png */; };
+		BAAD6AA217FF5BFE005A55E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6AA017FF5BFE005A55E8 /* MainStoryboard.storyboard */; };
+		BAAD6AA517FF5BFE005A55E8 /* SSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD6AA417FF5BFE005A55E8 /* SSKViewController.m */; };
+		BAAD6AAD17FF5BFE005A55E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6AAC17FF5BFE005A55E8 /* SenTestingKit.framework */; };
+		BAAD6AAE17FF5BFE005A55E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */; };
+		BAAD6AAF17FF5BFE005A55E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */; };
+		BAAD6AB717FF5BFE005A55E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6AB517FF5BFE005A55E8 /* InfoPlist.strings */; };
+		BAAD6ABA17FF5BFE005A55E8 /* RamenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD6AB917FF5BFE005A55E8 /* RamenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAAD6AB017FF5BFE005A55E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAAD6A7D17FF5BFE005A55E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAAD6A8417FF5BFE005A55E8;
+			remoteInfo = Ramen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAAD6A8517FF5BFE005A55E8 /* Ramen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAAD6A8C17FF5BFE005A55E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAAD6A9017FF5BFE005A55E8 /* Ramen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ramen-Info.plist"; sourceTree = "<group>"; };
+		BAAD6A9217FF5BFE005A55E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAAD6A9417FF5BFE005A55E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAAD6A9617FF5BFE005A55E8 /* Ramen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ramen-Prefix.pch"; sourceTree = "<group>"; };
+		BAAD6A9717FF5BFE005A55E8 /* SSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSKAppDelegate.h; sourceTree = "<group>"; };
+		BAAD6A9817FF5BFE005A55E8 /* SSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSKAppDelegate.m; sourceTree = "<group>"; };
+		BAAD6A9A17FF5BFE005A55E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BAAD6A9C17FF5BFE005A55E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BAAD6A9E17FF5BFE005A55E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BAAD6AA117FF5BFE005A55E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BAAD6AA317FF5BFE005A55E8 /* SSKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSKViewController.h; sourceTree = "<group>"; };
+		BAAD6AA417FF5BFE005A55E8 /* SSKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSKViewController.m; sourceTree = "<group>"; };
+		BAAD6AAB17FF5BFE005A55E8 /* RamenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAD6AAC17FF5BFE005A55E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAAD6AB417FF5BFE005A55E8 /* RamenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RamenTests-Info.plist"; sourceTree = "<group>"; };
+		BAAD6AB617FF5BFE005A55E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAAD6AB817FF5BFE005A55E8 /* RamenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RamenTests.h; sourceTree = "<group>"; };
+		BAAD6AB917FF5BFE005A55E8 /* RamenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RamenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAD6A8217FF5BFE005A55E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD6A8917FF5BFE005A55E8 /* UIKit.framework in Frameworks */,
+				BAAD6A8B17FF5BFE005A55E8 /* Foundation.framework in Frameworks */,
+				BAAD6A8D17FF5BFE005A55E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD6AA717FF5BFE005A55E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD6AAD17FF5BFE005A55E8 /* SenTestingKit.framework in Frameworks */,
+				BAAD6AAE17FF5BFE005A55E8 /* UIKit.framework in Frameworks */,
+				BAAD6AAF17FF5BFE005A55E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAD6A7C17FF5BFE005A55E8 = {
+			isa = PBXGroup;
+			children = (
+				BAAD6A8E17FF5BFE005A55E8 /* Ramen */,
+				BAAD6AB217FF5BFE005A55E8 /* RamenTests */,
+				BAAD6A8717FF5BFE005A55E8 /* Frameworks */,
+				BAAD6A8617FF5BFE005A55E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAD6A8617FF5BFE005A55E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6A8517FF5BFE005A55E8 /* Ramen.app */,
+				BAAD6AAB17FF5BFE005A55E8 /* RamenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAD6A8717FF5BFE005A55E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */,
+				BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */,
+				BAAD6A8C17FF5BFE005A55E8 /* CoreGraphics.framework */,
+				BAAD6AAC17FF5BFE005A55E8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAAD6A8E17FF5BFE005A55E8 /* Ramen */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6A9717FF5BFE005A55E8 /* SSKAppDelegate.h */,
+				BAAD6A9817FF5BFE005A55E8 /* SSKAppDelegate.m */,
+				BAAD6AA017FF5BFE005A55E8 /* MainStoryboard.storyboard */,
+				BAAD6AA317FF5BFE005A55E8 /* SSKViewController.h */,
+				BAAD6AA417FF5BFE005A55E8 /* SSKViewController.m */,
+				BAAD6A8F17FF5BFE005A55E8 /* Supporting Files */,
+			);
+			path = Ramen;
+			sourceTree = "<group>";
+		};
+		BAAD6A8F17FF5BFE005A55E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6A9017FF5BFE005A55E8 /* Ramen-Info.plist */,
+				BAAD6A9117FF5BFE005A55E8 /* InfoPlist.strings */,
+				BAAD6A9417FF5BFE005A55E8 /* main.m */,
+				BAAD6A9617FF5BFE005A55E8 /* Ramen-Prefix.pch */,
+				BAAD6A9A17FF5BFE005A55E8 /* Default.png */,
+				BAAD6A9C17FF5BFE005A55E8 /* Default@2x.png */,
+				BAAD6A9E17FF5BFE005A55E8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAAD6AB217FF5BFE005A55E8 /* RamenTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6AB817FF5BFE005A55E8 /* RamenTests.h */,
+				BAAD6AB917FF5BFE005A55E8 /* RamenTests.m */,
+				BAAD6AB317FF5BFE005A55E8 /* Supporting Files */,
+			);
+			path = RamenTests;
+			sourceTree = "<group>";
+		};
+		BAAD6AB317FF5BFE005A55E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6AB417FF5BFE005A55E8 /* RamenTests-Info.plist */,
+				BAAD6AB517FF5BFE005A55E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAD6A8417FF5BFE005A55E8 /* Ramen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAD6ABD17FF5BFE005A55E8 /* Build configuration list for PBXNativeTarget "Ramen" */;
+			buildPhases = (
+				BAAD6A8117FF5BFE005A55E8 /* Sources */,
+				BAAD6A8217FF5BFE005A55E8 /* Frameworks */,
+				BAAD6A8317FF5BFE005A55E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ramen;
+			productName = Ramen;
+			productReference = BAAD6A8517FF5BFE005A55E8 /* Ramen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAAD6AAA17FF5BFE005A55E8 /* RamenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAD6AC017FF5BFE005A55E8 /* Build configuration list for PBXNativeTarget "RamenTests" */;
+			buildPhases = (
+				BAAD6AA617FF5BFE005A55E8 /* Sources */,
+				BAAD6AA717FF5BFE005A55E8 /* Frameworks */,
+				BAAD6AA817FF5BFE005A55E8 /* Resources */,
+				BAAD6AA917FF5BFE005A55E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAAD6AB117FF5BFE005A55E8 /* PBXTargetDependency */,
+			);
+			name = RamenTests;
+			productName = RamenTests;
+			productReference = BAAD6AAB17FF5BFE005A55E8 /* RamenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAD6A7D17FF5BFE005A55E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SSK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sujay Khandekar";
+			};
+			buildConfigurationList = BAAD6A8017FF5BFE005A55E8 /* Build configuration list for PBXProject "Ramen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAAD6A7C17FF5BFE005A55E8;
+			productRefGroup = BAAD6A8617FF5BFE005A55E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAD6A8417FF5BFE005A55E8 /* Ramen */,
+				BAAD6AAA17FF5BFE005A55E8 /* RamenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAD6A8317FF5BFE005A55E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD6A9317FF5BFE005A55E8 /* InfoPlist.strings in Resources */,
+				BAAD6A9B17FF5BFE005A55E8 /* Default.png in Resources */,
+				BAAD6A9D17FF5BFE005A55E8 /* Default@2x.png in Resources */,
+				BAAD6A9F17FF5BFE005A55E8 /* Default-568h@2x.png in Resources */,
+				BAAD6AA217FF5BFE005A55E8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD6AA817FF5BFE005A55E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD6AB717FF5BFE005A55E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAAD6AA917FF5BFE005A55E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAD6A8117FF5BFE005A55E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD6A9517FF5BFE005A55E8 /* main.m in Sources */,
+				BAAD6A9917FF5BFE005A55E8 /* SSKAppDelegate.m in Sources */,
+				BAAD6AA517FF5BFE005A55E8 /* SSKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAD6AA617FF5BFE005A55E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAD6ABA17FF5BFE005A55E8 /* RamenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAAD6AB117FF5BFE005A55E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAAD6A8417FF5BFE005A55E8 /* Ramen */;
+			targetProxy = BAAD6AB017FF5BFE005A55E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAAD6A9117FF5BFE005A55E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAD6A9217FF5BFE005A55E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAAD6AA017FF5BFE005A55E8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAD6AA117FF5BFE005A55E8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BAAD6AB517FF5BFE005A55E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAD6AB617FF5BFE005A55E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAD6ABB17FF5BFE005A55E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAAD6ABC17FF5BFE005A55E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAAD6ABE17FF5BFE005A55E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ramen/Ramen-Prefix.pch";
+				INFOPLIST_FILE = "Ramen/Ramen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAAD6ABF17FF5BFE005A55E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ramen/Ramen-Prefix.pch";
+				INFOPLIST_FILE = "Ramen/Ramen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BAAD6AC117FF5BFE005A55E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ramen.app/Ramen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ramen/Ramen-Prefix.pch";
+				INFOPLIST_FILE = "RamenTests/RamenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BAAD6AC217FF5BFE005A55E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ramen.app/Ramen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ramen/Ramen-Prefix.pch";
+				INFOPLIST_FILE = "RamenTests/RamenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAD6A8017FF5BFE005A55E8 /* Build configuration list for PBXProject "Ramen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAD6ABB17FF5BFE005A55E8 /* Debug */,
+				BAAD6ABC17FF5BFE005A55E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAD6ABD17FF5BFE005A55E8 /* Build configuration list for PBXNativeTarget "Ramen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAD6ABE17FF5BFE005A55E8 /* Debug */,
+				BAAD6ABF17FF5BFE005A55E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAAD6AC017FF5BFE005A55E8 /* Build configuration list for PBXNativeTarget "RamenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAD6AC117FF5BFE005A55E8 /* Debug */,
+				BAAD6AC217FF5BFE005A55E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAD6A7D17FF5BFE005A55E8 /* Project object */;
+}
