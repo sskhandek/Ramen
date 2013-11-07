@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA74341E18242B32005DE4B9 /* SSKQuickListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA74341D18242B32005DE4B9 /* SSKQuickListTableCell.m */; };
 		BA7EACE41819C7B200B11B7C /* SSKQuickListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EACE31819C7B200B11B7C /* SSKQuickListTableViewController.m */; };
 		BA7EACEC1819CBE100B11B7C /* SSKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7EACEB1819CBE100B11B7C /* SSKLoginViewController.m */; };
+		BA87C70A182B02DC0058A7B3 /* SSKListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87C709182B02DC0058A7B3 /* SSKListItem.m */; };
+		BA87C70D182B072F0058A7B3 /* SSKGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87C70C182B072F0058A7B3 /* SSKGroupItem.m */; };
 		BAAD6A8917FF5BFE005A55E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */; };
 		BAAD6A8B17FF5BFE005A55E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */; };
 		BAAD6A8D17FF5BFE005A55E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8C17FF5BFE005A55E8 /* CoreGraphics.framework */; };
@@ -24,6 +27,7 @@
 		BAAD6AAF17FF5BFE005A55E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */; };
 		BAAD6AB717FF5BFE005A55E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAAD6AB517FF5BFE005A55E8 /* InfoPlist.strings */; };
 		BAAD6ABA17FF5BFE005A55E8 /* RamenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD6AB917FF5BFE005A55E8 /* RamenTests.m */; };
+		BAD02FA7181AF281003F5DE6 /* SSKAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD02FA6181AF281003F5DE6 /* SSKAbstractViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA74341C18242B32005DE4B9 /* SSKQuickListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKQuickListTableCell.h; path = UIElements/SSKQuickListCell/SSKQuickListTableCell.h; sourceTree = "<group>"; };
+		BA74341D18242B32005DE4B9 /* SSKQuickListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKQuickListTableCell.m; path = UIElements/SSKQuickListCell/SSKQuickListTableCell.m; sourceTree = "<group>"; };
 		BA7EACE21819C7B200B11B7C /* SSKQuickListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKQuickListTableViewController.h; path = ViewControllers/QuickListsSequence/SSKQuickListTableViewController.h; sourceTree = "<group>"; };
 		BA7EACE31819C7B200B11B7C /* SSKQuickListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKQuickListTableViewController.m; path = ViewControllers/QuickListsSequence/SSKQuickListTableViewController.m; sourceTree = "<group>"; };
 		BA7EACEA1819CBE100B11B7C /* SSKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKLoginViewController.h; path = ViewControllers/LoginSequence/SSKLoginViewController.h; sourceTree = "<group>"; };
 		BA7EACEB1819CBE100B11B7C /* SSKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKLoginViewController.m; path = ViewControllers/LoginSequence/SSKLoginViewController.m; sourceTree = "<group>"; };
+		BA87C708182B02DC0058A7B3 /* SSKListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKListItem.h; path = Model/ListItem/SSKListItem.h; sourceTree = "<group>"; };
+		BA87C709182B02DC0058A7B3 /* SSKListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKListItem.m; path = Model/ListItem/SSKListItem.m; sourceTree = "<group>"; };
+		BA87C70B182B072F0058A7B3 /* SSKGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKGroupItem.h; path = Model/GroupItem/SSKGroupItem.h; sourceTree = "<group>"; };
+		BA87C70C182B072F0058A7B3 /* SSKGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKGroupItem.m; path = Model/GroupItem/SSKGroupItem.m; sourceTree = "<group>"; };
 		BAAD6A8517FF5BFE005A55E8 /* Ramen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +71,8 @@
 		BAAD6AB617FF5BFE005A55E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAAD6AB817FF5BFE005A55E8 /* RamenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RamenTests.h; sourceTree = "<group>"; };
 		BAAD6AB917FF5BFE005A55E8 /* RamenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RamenTests.m; sourceTree = "<group>"; };
+		BAD02FA5181AF281003F5DE6 /* SSKAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKAbstractViewController.h; path = Abstract/SSKAbstractViewController/SSKAbstractViewController.h; sourceTree = "<group>"; };
+		BAD02FA6181AF281003F5DE6 /* SSKAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKAbstractViewController.m; path = Abstract/SSKAbstractViewController/SSKAbstractViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,6 @@
 				BA7EACE11819C76600B11B7C /* QuickListsSequence */,
 				BA7EACE71819C7F600B11B7C /* TaskGroupsSequence */,
 				BA7EACE61819C7D900B11B7C /* MainListSequence */,
-				BA7EACE81819C82E00B11B7C /* SettingsSequence */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -149,18 +160,38 @@
 			name = TaskGroupsSequence;
 			sourceTree = "<group>";
 		};
-		BA7EACE81819C82E00B11B7C /* SettingsSequence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SettingsSequence;
-			sourceTree = "<group>";
-		};
 		BA7EACE91819C86900B11B7C /* FirstTimeSequence */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = FirstTimeSequence;
+			sourceTree = "<group>";
+		};
+		BA87C705182B02960058A7B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA87C706182B029F0058A7B3 /* ListItem */,
+				BA87C707182B02B70058A7B3 /* GroupItem */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BA87C706182B029F0058A7B3 /* ListItem */ = {
+			isa = PBXGroup;
+			children = (
+				BA87C708182B02DC0058A7B3 /* SSKListItem.h */,
+				BA87C709182B02DC0058A7B3 /* SSKListItem.m */,
+			);
+			name = ListItem;
+			sourceTree = "<group>";
+		};
+		BA87C707182B02B70058A7B3 /* GroupItem */ = {
+			isa = PBXGroup;
+			children = (
+				BA87C70B182B072F0058A7B3 /* SSKGroupItem.h */,
+				BA87C70C182B072F0058A7B3 /* SSKGroupItem.m */,
+			);
+			name = GroupItem;
 			sourceTree = "<group>";
 		};
 		BAAD6A7C17FF5BFE005A55E8 = {
@@ -196,6 +227,9 @@
 		BAAD6A8E17FF5BFE005A55E8 /* Ramen */ = {
 			isa = PBXGroup;
 			children = (
+				BA87C705182B02960058A7B3 /* Model */,
+				BAD02FA3181AF217003F5DE6 /* Abstract */,
+				BAD02FA1181AF1FD003F5DE6 /* UIElements */,
 				BA7EACDE1819C72200B11B7C /* ViewControllers */,
 				BA7EACE01819C74200B11B7C /* Storyboards */,
 				BA7EACDF1819C73900B11B7C /* AppDelegates */,
@@ -235,6 +269,40 @@
 				BAAD6AB517FF5BFE005A55E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAD02FA1181AF1FD003F5DE6 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				BAD02FA2181AF203003F5DE6 /* SSKQuickListCell */,
+			);
+			name = UIElements;
+			sourceTree = "<group>";
+		};
+		BAD02FA2181AF203003F5DE6 /* SSKQuickListCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA74341C18242B32005DE4B9 /* SSKQuickListTableCell.h */,
+				BA74341D18242B32005DE4B9 /* SSKQuickListTableCell.m */,
+			);
+			name = SSKQuickListCell;
+			sourceTree = "<group>";
+		};
+		BAD02FA3181AF217003F5DE6 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				BAD02FA4181AF21F003F5DE6 /* SSKAbstractViewController */,
+			);
+			name = Abstract;
+			sourceTree = "<group>";
+		};
+		BAD02FA4181AF21F003F5DE6 /* SSKAbstractViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BAD02FA5181AF281003F5DE6 /* SSKAbstractViewController.h */,
+				BAD02FA6181AF281003F5DE6 /* SSKAbstractViewController.m */,
+			);
+			name = SSKAbstractViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,9 +416,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA74341E18242B32005DE4B9 /* SSKQuickListTableCell.m in Sources */,
 				BA7EACEC1819CBE100B11B7C /* SSKLoginViewController.m in Sources */,
 				BA7EACE41819C7B200B11B7C /* SSKQuickListTableViewController.m in Sources */,
+				BA87C70A182B02DC0058A7B3 /* SSKListItem.m in Sources */,
 				BAAD6A9517FF5BFE005A55E8 /* main.m in Sources */,
+				BAD02FA7181AF281003F5DE6 /* SSKAbstractViewController.m in Sources */,
+				BA87C70D182B072F0058A7B3 /* SSKGroupItem.m in Sources */,
 				BAAD6A9917FF5BFE005A55E8 /* SSKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

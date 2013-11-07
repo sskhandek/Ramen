@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SSKAbstractViewController.h"
 
-@interface SSKLoginViewController : UIViewController
+@interface SSKLoginViewController : SSKAbstractViewController
+
+@property (strong, nonatomic) UITextField *userField;
+@property (strong, nonatomic) UITextField *passwordField;
 
 @end
