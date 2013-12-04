@@ -11,9 +11,8 @@
 		BA0907CB1846C855007B8B2C /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0907C71846C855007B8B2C /* 83-calendar.png */; };
 		BA0907CC1846C855007B8B2C /* 157-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0907C81846C855007B8B2C /* 157-wrench.png */; };
 		BA0907CD1846C855007B8B2C /* 180-stickynote.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0907C91846C855007B8B2C /* 180-stickynote.png */; };
-		BA2C25BB1845C27B009D03A9 /* SSKQuickListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2C25BA1845C27B009D03A9 /* SSKQuickListViewController.m */; };
-		BA87C70A182B02DC0058A7B3 /* SSKListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87C709182B02DC0058A7B3 /* SSKListItem.m */; };
-		BA87C70D182B072F0058A7B3 /* SSKGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87C70C182B072F0058A7B3 /* SSKGroupItem.m */; };
+		BA0907D11847DF83007B8B2C /* SSKQuickListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0907D01847DF83007B8B2C /* SSKQuickListViewController.m */; };
+		BA4BCD7C184F9A02007A300B /* SSKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4BCD7B184F9A02007A300B /* SSKLoginViewController.m */; };
 		BAAD6A8917FF5BFE005A55E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */; };
 		BAAD6A8B17FF5BFE005A55E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */; };
 		BAAD6A8D17FF5BFE005A55E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8C17FF5BFE005A55E8 /* CoreGraphics.framework */; };
@@ -46,12 +45,10 @@
 		BA0907C71846C855007B8B2C /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
 		BA0907C81846C855007B8B2C /* 157-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157-wrench.png"; sourceTree = "<group>"; };
 		BA0907C91846C855007B8B2C /* 180-stickynote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180-stickynote.png"; sourceTree = "<group>"; };
-		BA2C25B91845C27B009D03A9 /* SSKQuickListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKQuickListViewController.h; path = ViewControllers/SSKQuickListViewController.h; sourceTree = "<group>"; };
-		BA2C25BA1845C27B009D03A9 /* SSKQuickListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKQuickListViewController.m; path = ViewControllers/SSKQuickListViewController.m; sourceTree = "<group>"; };
-		BA87C708182B02DC0058A7B3 /* SSKListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKListItem.h; path = Model/ListItem/SSKListItem.h; sourceTree = "<group>"; };
-		BA87C709182B02DC0058A7B3 /* SSKListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKListItem.m; path = Model/ListItem/SSKListItem.m; sourceTree = "<group>"; };
-		BA87C70B182B072F0058A7B3 /* SSKGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKGroupItem.h; path = Model/GroupItem/SSKGroupItem.h; sourceTree = "<group>"; };
-		BA87C70C182B072F0058A7B3 /* SSKGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKGroupItem.m; path = Model/GroupItem/SSKGroupItem.m; sourceTree = "<group>"; };
+		BA0907CF1847DF83007B8B2C /* SSKQuickListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKQuickListViewController.h; path = ViewControllers/QuickList/SSKQuickListViewController.h; sourceTree = "<group>"; };
+		BA0907D01847DF83007B8B2C /* SSKQuickListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKQuickListViewController.m; path = ViewControllers/QuickList/SSKQuickListViewController.m; sourceTree = "<group>"; };
+		BA4BCD7A184F9A02007A300B /* SSKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKLoginViewController.h; path = ViewControllers/Login/SSKLoginViewController.h; sourceTree = "<group>"; };
+		BA4BCD7B184F9A02007A300B /* SSKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKLoginViewController.m; path = ViewControllers/Login/SSKLoginViewController.m; sourceTree = "<group>"; };
 		BAAD6A8517FF5BFE005A55E8 /* Ramen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,19 +95,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA2C25B81845C1B5009D03A9 /* SSKQuickListViewController */ = {
+		BA0907CE1847DF5B007B8B2C /* SSKQuickListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BA2C25B91845C27B009D03A9 /* SSKQuickListViewController.h */,
-				BA2C25BA1845C27B009D03A9 /* SSKQuickListViewController.m */,
+				BA0907CF1847DF83007B8B2C /* SSKQuickListViewController.h */,
+				BA0907D01847DF83007B8B2C /* SSKQuickListViewController.m */,
 			);
 			name = SSKQuickListViewController;
+			sourceTree = "<group>";
+		};
+		BA4BCD79184F99E8007A300B /* SSKLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BCD7A184F9A02007A300B /* SSKLoginViewController.h */,
+				BA4BCD7B184F9A02007A300B /* SSKLoginViewController.m */,
+			);
+			name = SSKLoginViewController;
 			sourceTree = "<group>";
 		};
 		BA7EACDE1819C72200B11B7C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BA2C25B81845C1B5009D03A9 /* SSKQuickListViewController */,
+				BA4BCD79184F99E8007A300B /* SSKLoginViewController */,
+				BA0907CE1847DF5B007B8B2C /* SSKQuickListViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -130,33 +137,6 @@
 				BAAD6AA017FF5BFE005A55E8 /* MainStoryboard.storyboard */,
 			);
 			name = Storyboards;
-			sourceTree = "<group>";
-		};
-		BA87C705182B02960058A7B3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BA87C706182B029F0058A7B3 /* ListItem */,
-				BA87C707182B02B70058A7B3 /* GroupItem */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		BA87C706182B029F0058A7B3 /* ListItem */ = {
-			isa = PBXGroup;
-			children = (
-				BA87C708182B02DC0058A7B3 /* SSKListItem.h */,
-				BA87C709182B02DC0058A7B3 /* SSKListItem.m */,
-			);
-			name = ListItem;
-			sourceTree = "<group>";
-		};
-		BA87C707182B02B70058A7B3 /* GroupItem */ = {
-			isa = PBXGroup;
-			children = (
-				BA87C70B182B072F0058A7B3 /* SSKGroupItem.h */,
-				BA87C70C182B072F0058A7B3 /* SSKGroupItem.m */,
-			);
-			name = GroupItem;
 			sourceTree = "<group>";
 		};
 		BAAD6A7C17FF5BFE005A55E8 = {
@@ -192,7 +172,6 @@
 		BAAD6A8E17FF5BFE005A55E8 /* Ramen */ = {
 			isa = PBXGroup;
 			children = (
-				BA87C705182B02960058A7B3 /* Model */,
 				BA7EACDE1819C72200B11B7C /* ViewControllers */,
 				BA7EACE01819C74200B11B7C /* Storyboards */,
 				BA7EACDF1819C73900B11B7C /* AppDelegates */,
@@ -353,11 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA87C70A182B02DC0058A7B3 /* SSKListItem.m in Sources */,
+				BA4BCD7C184F9A02007A300B /* SSKLoginViewController.m in Sources */,
 				BAAD6A9517FF5BFE005A55E8 /* main.m in Sources */,
-				BA87C70D182B072F0058A7B3 /* SSKGroupItem.m in Sources */,
 				BAAD6A9917FF5BFE005A55E8 /* SSKAppDelegate.m in Sources */,
-				BA2C25BB1845C27B009D03A9 /* SSKQuickListViewController.m in Sources */,
+				BA0907D11847DF83007B8B2C /* SSKQuickListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
