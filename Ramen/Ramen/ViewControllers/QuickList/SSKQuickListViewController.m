@@ -8,12 +8,14 @@
 
 #import "SSKQuickListViewController.h"
 #define ramenURL [NSURL URLWithString:@"http://watdo.net/honors/json.php"]
+#define loginURL [NSURL urlWithString:@"http://watdo.net/honors/get_quick_lists.php?username=brian"]
 
 @interface SSKQuickListViewController ()
 
 @end
 
 @implementation SSKQuickListViewController
+@synthesize username;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -27,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  

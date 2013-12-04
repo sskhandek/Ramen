@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSKQuickListViewController : UITableViewController
 
+@interface SSKQuickListViewController : UITableViewController
+@property (strong, nonatomic) NSString *username;
 @end

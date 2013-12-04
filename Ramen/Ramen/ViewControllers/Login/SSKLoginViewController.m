@@ -7,7 +7,10 @@
 //
 
 #import "SSKLoginViewController.h"
+#import "SSKQuickListViewController.h"
+#import "SSKTabBarViewController.h"
 #define loginURL [NSURL urlWithString:@"http://watdo.net/honors/verify_login.php?username=brian&password=watdo"]
+#define loginURL [NSURL urlWithString:@"http://watdo.net/honors/get_main_lists.php?username=brian"]
 
 @interface SSKLoginViewController ()
 
@@ -72,10 +75,14 @@
     }
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"loginIdentifier"])
+    {
+        [[segue destinationViewController] setUsername:[_usernameField text]];
+    }
 }
-
 @end
 
 

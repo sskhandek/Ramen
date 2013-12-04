@@ -13,6 +13,8 @@
 		BA0907CD1846C855007B8B2C /* 180-stickynote.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0907C91846C855007B8B2C /* 180-stickynote.png */; };
 		BA0907D11847DF83007B8B2C /* SSKQuickListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0907D01847DF83007B8B2C /* SSKQuickListViewController.m */; };
 		BA4BCD7C184F9A02007A300B /* SSKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4BCD7B184F9A02007A300B /* SSKLoginViewController.m */; };
+		BA4BFB07184FD1C400C23B42 /* SSKTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4BFB06184FD1C400C23B42 /* SSKTabBarViewController.m */; };
+		BA4BFB0B184FEF3000C23B42 /* SSKNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4BFB0A184FEF3000C23B42 /* SSKNavigationViewController.m */; };
 		BAAD6A8917FF5BFE005A55E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */; };
 		BAAD6A8B17FF5BFE005A55E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */; };
 		BAAD6A8D17FF5BFE005A55E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAD6A8C17FF5BFE005A55E8 /* CoreGraphics.framework */; };
@@ -49,6 +51,10 @@
 		BA0907D01847DF83007B8B2C /* SSKQuickListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKQuickListViewController.m; path = ViewControllers/QuickList/SSKQuickListViewController.m; sourceTree = "<group>"; };
 		BA4BCD7A184F9A02007A300B /* SSKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKLoginViewController.h; path = ViewControllers/Login/SSKLoginViewController.h; sourceTree = "<group>"; };
 		BA4BCD7B184F9A02007A300B /* SSKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKLoginViewController.m; path = ViewControllers/Login/SSKLoginViewController.m; sourceTree = "<group>"; };
+		BA4BFB05184FD1C400C23B42 /* SSKTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKTabBarViewController.h; path = ViewControllers/TabBar/SSKTabBarViewController.h; sourceTree = "<group>"; };
+		BA4BFB06184FD1C400C23B42 /* SSKTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKTabBarViewController.m; path = ViewControllers/TabBar/SSKTabBarViewController.m; sourceTree = "<group>"; };
+		BA4BFB09184FEF3000C23B42 /* SSKNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKNavigationViewController.h; path = ViewControllers/Navigation/SSKNavigationViewController.h; sourceTree = "<group>"; };
+		BA4BFB0A184FEF3000C23B42 /* SSKNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKNavigationViewController.m; path = ViewControllers/Navigation/SSKNavigationViewController.m; sourceTree = "<group>"; };
 		BAAD6A8517FF5BFE005A55E8 /* Ramen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAD6A8817FF5BFE005A55E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAAD6A8A17FF5BFE005A55E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,9 +119,29 @@
 			name = SSKLoginViewController;
 			sourceTree = "<group>";
 		};
+		BA4BFB04184FD16A00C23B42 /* SSKTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BFB05184FD1C400C23B42 /* SSKTabBarViewController.h */,
+				BA4BFB06184FD1C400C23B42 /* SSKTabBarViewController.m */,
+			);
+			name = SSKTabViewController;
+			sourceTree = "<group>";
+		};
+		BA4BFB08184FEF0700C23B42 /* SSKNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BFB09184FEF3000C23B42 /* SSKNavigationViewController.h */,
+				BA4BFB0A184FEF3000C23B42 /* SSKNavigationViewController.m */,
+			);
+			name = SSKNavigationController;
+			sourceTree = "<group>";
+		};
 		BA7EACDE1819C72200B11B7C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA4BFB08184FEF0700C23B42 /* SSKNavigationController */,
+				BA4BFB04184FD16A00C23B42 /* SSKTabViewController */,
 				BA4BCD79184F99E8007A300B /* SSKLoginViewController */,
 				BA0907CE1847DF5B007B8B2C /* SSKQuickListViewController */,
 			);
@@ -333,8 +359,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4BCD7C184F9A02007A300B /* SSKLoginViewController.m in Sources */,
+				BA4BFB07184FD1C400C23B42 /* SSKTabBarViewController.m in Sources */,
 				BAAD6A9517FF5BFE005A55E8 /* main.m in Sources */,
 				BAAD6A9917FF5BFE005A55E8 /* SSKAppDelegate.m in Sources */,
+				BA4BFB0B184FEF3000C23B42 /* SSKNavigationViewController.m in Sources */,
 				BA0907D11847DF83007B8B2C /* SSKQuickListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
