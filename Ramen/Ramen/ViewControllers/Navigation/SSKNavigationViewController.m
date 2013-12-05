@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    [(SSKQuickListViewController *)[[self viewControllers] objectAtIndex:0] setUsername:_username];
+    [[[self viewControllers] objectAtIndex:0] setUsername:_username];
 }
 
 - (void)didReceiveMemoryWarning

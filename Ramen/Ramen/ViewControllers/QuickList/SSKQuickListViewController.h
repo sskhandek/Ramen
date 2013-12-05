@@ -11,4 +11,5 @@
 
 @interface SSKQuickListViewController : UITableViewController
 @property (strong, nonatomic) NSString *username;
+@property (strong, nonatomic) NSMutableArray *quickListItems;
 @end

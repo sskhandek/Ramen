@@ -1,20 +1,18 @@
 //
-//  SSKQuickListViewController.m
+//  SSKMainListViewController.m
 //  Ramen
 //
-//  Created by Sujay Khandekar on 11/28/13.
+//  Created by Sujay Khandekar on 12/4/13.
 //  Copyright (c) 2013 Sujay Khandekar. All rights reserved.
 //
 
-#import "SSKQuickListViewController.h"
-#define ramenURL [NSURL URLWithString:@"http://watdo.net/honors/json.php"]
+#import "SSKMainListViewController.h"
 
-
-@interface SSKQuickListViewController ()
+@interface SSKMainListViewController ()
 
 @end
 
-@implementation SSKQuickListViewController
+@implementation SSKMainListViewController
 @synthesize username;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -29,12 +27,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _quickListItems = [[NSMutableArray alloc] init];
-    [_quickListItems addObject:@"Something"];
+
+    
+    _mainListItems = [[NSMutableArray alloc] init];
+    [_mainListItems addObject:@"Something"];
     
     
     
-    NSMutableString *url = [NSMutableString stringWithString:@"http://watdo.net/honors/get_quick_lists.php?username="];
+    NSMutableString *url = [NSMutableString stringWithString:@"http://watdo.net/honors/get_main_lists.php?username="];
     [url appendString:username];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL
@@ -47,7 +47,7 @@
     
     
     NSLog(@"LOL: %@", json);
-    
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -72,7 +72,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [_quickListItems count];
+    return [_mainListItems count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -84,7 +84,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    cell.textLabel.text = [_quickListItems objectAtIndex:indexPath.row];
+    cell.textLabel.text = [_mainListItems objectAtIndex:indexPath.row];
     
     return cell;
 }
