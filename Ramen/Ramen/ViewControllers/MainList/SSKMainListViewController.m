@@ -30,9 +30,6 @@
 
     
     _mainListItems = [[NSMutableArray alloc] init];
-    [_mainListItems addObject:@"Something"];
-    
-    
     
     NSMutableString *url = [NSMutableString stringWithString:@"http://watdo.net/honors/get_main_lists.php?username="];
     [url appendString:username];
@@ -42,11 +39,20 @@
     NSData *response = [NSURLConnection sendSynchronousRequest:request
                                              returningResponse:nil error:nil];
     NSError *jsonParsingError = nil;
-    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:response
-                                                         options:0 error:&jsonParsingError];
+    // NSDictionary *json = [NSJSONSerialization JSONObjectWithData:response  options:0 error:&jsonParsingError];
     
     
-    NSLog(@"LOL: %@", json);
+    NSError *e = nil;
+    NSArray *jsonArray = [NSJSONSerialization JSONObjectWithData:response options: NSJSONReadingMutableContainers error: &e];
+    
+    if (!jsonArray) {
+        NSLog(@"Error parsing JSON: %@", e);
+    } else {
+        for(NSDictionary *item in jsonArray) {
+            NSString *temp = [item objectForKey:@"description"];
+            [_mainListItems addObject:temp];
+        }
+    }
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

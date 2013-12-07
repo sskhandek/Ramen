@@ -39,8 +39,7 @@
     NSData *response = [NSURLConnection sendSynchronousRequest:request
                                              returningResponse:nil error:nil];
     NSError *jsonParsingError = nil;
-    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:response
-                                                         options:0 error:&jsonParsingError];
+   // NSDictionary *json = [NSJSONSerialization JSONObjectWithData:response  options:0 error:&jsonParsingError];
     
     
     NSError *e = nil;

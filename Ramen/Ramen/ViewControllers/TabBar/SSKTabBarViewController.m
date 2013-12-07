@@ -30,6 +30,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [(SSKNavigationViewController *)[[self viewControllers] objectAtIndex:0] setUsername:username];
+    [(SSKNavigationViewController *)[[self viewControllers] objectAtIndex:1] setUsername:username];
     
 }
 
