@@ -203,31 +203,26 @@
                     <view key="view" contentMode="scaleToFill" id="kwN-Af-FAT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEN-pN-sL4">
-                                <rect key="frame" x="0.0" y="479" width="320" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="W1a-lD-dil" kind="modal" modalTransitionStyle="flipHorizontal" id="Z5k-L6-z1b"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Settings" id="G9k-I8-EFF"/>
+                    <navigationItem key="navigationItem" title="Settings" id="G9k-I8-EFF">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="iOj-Qd-7aL">
+                            <color key="tintColor" red="0.66666666669999997" green="0.01575054477" blue="0.091988383389999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="W1a-lD-dil" kind="modal" modalTransitionStyle="flipHorizontal" id="ejm-yk-wmu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Td4-eS-aLq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1446" y="1198"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Settings-->
         <scene sceneID="0Ij-D7-oJI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4TX-Y6-dbU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ne9-4C-ZGi"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="157-wrench.png" id="ne9-4C-ZGi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YEV-Am-ZXZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -244,6 +239,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="157-wrench.png" width="24" height="24"/>
         <image name="180-stickynote.png" width="22" height="22"/>
         <image name="83-calendar.png" width="23" height="25"/>
     </resources>
